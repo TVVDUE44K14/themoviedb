@@ -18,7 +18,7 @@ const Popular = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getListMoviesRequest({ page: 1 }));
-  }, []);
+  }, [dispatch]);
 
   const movieList = [...listItemMovie];
   useEffect(() => {
@@ -33,23 +33,10 @@ const Popular = () => {
       );
       window.addEventListener("scroll", () => {
         if (
-          // anotherNum + 1 >= 2 &&
-          // Math.round(window.scrollY + window.innerHeight) >=
-          //   Math.round(
-          //     listItem.clientHeight + listItem.offsetTop + footer.clientHeight
-          //   )
-
           anotherNum + 1 >= 2 &&
           window.scrollY + window.innerHeight >=
             listItem.clientHeight + listItem.offsetTop + footer.clientHeight
         ) {
-          // console.log(Math.round(window.scrollY + window.innerHeight), "222");
-          // console.log(
-          //   Math.round(
-          //     listItem.clientHeight + listItem.offsetTop + footer.clientHeight
-          //   ),
-          //   "333"
-          // );
           console.log(window.scrollY + window.innerHeight, "222");
           console.log(
             listItem.clientHeight + listItem.offsetTop + footer.clientHeight,
@@ -69,7 +56,7 @@ const Popular = () => {
         }
       });
     }
-  }, [dispatch]);
+  }, [dispatch, numPage, anotherNum]);
   const handleLoadMore = () => {
     dispatch(
       getListMoviesRequest({
