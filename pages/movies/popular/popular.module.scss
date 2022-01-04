@@ -1,0 +1,36 @@
+section.list {
+  margin-top: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  div.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    div.content {
+      display: flex;
+      flex-wrap: nowrap;
+      div.listMovies {
+        margin-top: -23px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 30px;
+        background: transparent;
+      }
+    }
+  }
+}

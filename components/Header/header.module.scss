@@ -1,0 +1,173 @@
+header.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #032541;
+  height: 64px;
+  width: 100%;
+  z-index: 10;
+  transition: top 0.2s linear;
+  div.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    li {
+      cursor: pointer;
+    }
+    div.subMedia {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      top: 0;
+      left: 0;
+      max-width: 1440px;
+      width: 100%;
+      padding: 0 40px;
+      font-size: 15px;
+      div.navigationMenu {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        align-items: center;
+        overflow: visible;
+        a.logo {
+          display: block;
+          margin-right: 16px;
+          width: 154px;
+          height: 20px;
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        ul.menuSub {
+          display: flex;
+          justify-content: center;
+          background: transparent;
+          align-items: center;
+          padding-left: 0;
+          height: auto;
+          margin: 0;
+          li {
+            display: flex;
+            color: #fff;
+            margin-right: 14px;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 2rem 0.5rem;
+            .subPopup {
+              position: absolute;
+              z-index: 20;
+              top: 60px;
+              border-radius: 5px;
+              width: 11%;
+              padding: 5px;
+              border: solid 1px rgb(184, 184, 184);
+              background-color: #fff;
+              a {
+                font-size: 16px;
+                line-height: 12px;
+                padding: 11px 10px;
+                width: 100%;
+                font-weight: 400;
+                text-align: left;
+                text-transform: initial;
+                display: flex;
+                align-items: center;
+                color: black;
+              }
+              a:hover {
+                background-color: #e4e7eb;
+                padding: -5px;
+              }
+            }
+          }
+        }
+      }
+      div.navigationAction {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        height: auto;
+        a {
+          color: white !important;
+        }
+        ul.subAction {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: nowrap;
+          padding: 1rem 0.5rem;
+          margin: 0;
+          font-weight: 600;
+          font-size: 15px;
+          li.plusIcon {
+            height: 100%;
+            display: inline-flex;
+            align-items: center;
+          }
+          li.languages {
+            color: #fff;
+            display: block;
+            padding: 4px 0;
+            margin-left: 30px;
+            div.languagesDefault {
+              width: 28px;
+              height: 26px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              align-content: center;
+              border: 1px solid #fff;
+              border-radius: 3px;
+              padding: 3px 5px;
+              transition: linear 0.1s;
+              color: #fff;
+              font-weight: 600;
+              font-size: 0.9em;
+              text-transform: uppercase;
+              a {
+                align-items: center;
+              }
+            }
+          }
+          li.login {
+            display: flex;
+            margin-left: 30px;
+            a {
+              display: flex;
+              flex-wrap: nowrap;
+              align-items: center;
+              align-content: center;
+            }
+          }
+          li.signUp {
+            display: flex;
+            margin-left: 30px;
+            a {
+              display: flex;
+              align-items: center;
+              align-content: center;
+            }
+          }
+          li.searchItem {
+            display: flex;
+            margin-left: 30px;
+            svg {
+              color: #1890ff !important;
+            }
+            a {
+              display: flex;
+              align-items: center;
+              align-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

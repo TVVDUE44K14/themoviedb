@@ -14,3 +14,87 @@ a {
 * {
   box-sizing: border-box;
 }
+
+div.ant-card div.ant-card-body {
+  padding: 0;
+}
+div.ant-card {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 30px;
+  width: calc((100vw - 80px - 260px - (30px * 5)) / 5);
+  max-width: calc((1400px- 80px - 260px - (30px * 5)) / 5);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+}
+div.ant-card-body img {
+  width: 100%;
+  height: 100%;
+}
+div.ant-card div.ant-card-cover {
+  width: calc((100vw - 80px - 260px - (30px * 5)) / 5);
+  max-width: calc((1400px- 80px - 260px - (30px * 5)) / 5);
+}
+
+div.ant-card div.ant-card-cover span.ant-progress-text {
+  color: #fff;
+  font-weight: 700;
+}
+div.ant-card-body {
+  width: 100%;
+}
+div.ant-card-body div.ant-progress-inner svg.ant-progress-circle {
+  background-color: #081c22;
+}
+div.ant-card-body div.ant-progress-inner span.ant-progress-text {
+  color: #fff;
+  font-weight: 700;
+}
+button.ant-btn {
+  margin-top: 20px;
+  border: none;
+  min-height: 49px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  outline: none;
+  background-color: #01b4e4;
+  color: white;
+  border-radius: 8px;
+}
+button.ant-btn:hover {
+  color: black;
+  background-color: #01b4e4;
+}
+.ant-select-selector {
+  background-color: #e4e7eb;
+}
+.ant-select-selection-search {
+  background-color: #e4e7eb;
+}
+div.ant-collapse-body {
+  background-color: #fff;
+}
+div#vote span.ant-slider-mark-text:last-child {
+  left: 98% !important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #e4e7eb !important;
+}
+.ant-collapse.ant-collapse-icon-position-left {
+  background: white;
+}
+h3 a:hover {
+  color: #1890ff !important;
+}
+.ant-col.ant-form-item-label {
+  display: flex;
+  width: 85px;
+}

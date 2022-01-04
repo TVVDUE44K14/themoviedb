@@ -1,0 +1,93 @@
+.filter {
+  width: 260px;
+  .filterSort {
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    .title {
+      display: flex;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-around;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem;
+      min-height: 45px;
+      h2 {
+        padding-left: 15px;
+        font-size: 1.1em;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        font-weight: bold;
+      }
+    }
+  }
+  .filters {
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    .title {
+      display: flex;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-around;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem;
+      min-height: 45px;
+      h2 {
+        padding-left: 15px;
+        font-size: 1.1em;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        font-weight: bold;
+      }
+    }
+  }
+  .filterWhere {
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    .title {
+      display: flex;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-around;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem;
+      min-height: 45px;
+      h2 {
+        padding-left: 15px;
+        font-size: 1.1em;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        font-weight: bold;
+      }
+    }
+  }
+  .actionSearch {
+    width: 100%;
+    height: 50px;
+    .btnSearch {
+      width: 100%;
+      color: rgb(0 0 0 / 0.5);
+      background: rgb(228 228 228 / 0.7);
+      border-radius: 20px;
+      font-size: 1.2em;
+      line-height: 1;
+      font-weight: 600;
+      height: 100%;
+      border: none;
+    }
+  }
+}
