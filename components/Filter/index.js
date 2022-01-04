@@ -124,7 +124,7 @@ function Filter() {
                   <div>
                     <Radio.Group onChange={onChange} value={valueRadio}>
                       <Radio value={1}>Everything</Radio>
-                      <Radio value={2}>Movie I Haven't Seen</Radio>
+                      <Radio value={2}>Movie I Havent Seen</Radio>
                       <Radio value={3}>Movie I Have Seen</Radio>
                     </Radio.Group>
                   </div>
